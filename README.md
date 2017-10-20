@@ -33,16 +33,6 @@ git clone https://github.com/bdeanindy/weebly-developer-community-sample-app-rew
     * [How to extract Zip files on Ubuntu](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal)
     * From Linux command line: `tar -xvf weebly-devcommunity-sample-app-rewrite-history.zip -C /destination/directory/`
 
-### Get your Weebly App API Keys
-
-Make sure to [Create a Weebly Developer Account](https://dev.weebly.com/create-a-developer-account.html), if you have not already.
-
-You will need your **Weebly App's API Keys** and a **Weebly Developer Site** in order for this code to work properly after it is deployed.
-
-Next, please [Register a Weebly App](https://dev.weebly.com/register-your-app.html) to obtain your API Keys.
-
-While registering your new Weebly App, give it the name "Page URL Rewriter", and set the type to `services`.
-
 ## Deployment
 
 Now that you have the code on your workstation, and your new Weebly App API Keys on-hand, you are ready to deployment to Weebly.
