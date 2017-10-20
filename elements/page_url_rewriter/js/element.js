@@ -8,7 +8,7 @@ PlatformElement.extend({
             console.log('We have a hash!');
             if('#myCategoryId' === window.location.hash) {
                 console.log('Ooh, and it matches our category, we should display the category contents now');
-                document.querySelector('#categoryContent').style.display = block;
+                document.querySelector('#categoryContent').style.display = 'block';
             }
         }
         console.log('Current state: ', window.history.state);
