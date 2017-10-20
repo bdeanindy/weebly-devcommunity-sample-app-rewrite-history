@@ -4,7 +4,7 @@ PlatformElement.extend({
     },
 
     events: {
-        'click #pusher': this.pushState
+        'click #pusher': 'pushState'
     },
 
     pushState: function(evt) {
