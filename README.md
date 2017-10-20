@@ -39,7 +39,7 @@ Now that you have the code on your workstation, and your new Weebly App API Keys
 
 1. Open the [Weebly Developer Admin](https://www.weebly.com/developer-admin), login if you are not already, and click on the "Page URL Rewriter" app if it is not already open
 2. Create a **.zip** file of EVERYTHING within the root directory
-3. Name or Rename that `.zip` file: `0.1.0.zip` (I've found it helpful to keep my zip file names mapped to the same as my app version value in the `manifest.json` file)
+3. Name or Rename that `.zip` file: `0.1.1.zip` (I've found it helpful to keep my zip file names mapped to the same as my app version value in the `manifest.json` file)
 4. **Upload a New Version** of your app's zip file in the Weebly Developer Admin and complete the form for the other required fields
 5. Then, click the **Save Draft** link. __If any errors are displayed, correct those and try clicking the **Save Draft** link again__
 7. Go back to the **Page URL Rewriter** app's **Versions** tab, and click on the link labeled **Install to Site** and choose your Weebly Developer Site
