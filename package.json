@@ -1,11 +1,9 @@
 {
   "name": "weebly-devcommunity-sample-app-rewrite-history",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sample app to answer the Weebly Developer Community post about the ability for an Element app to rewrite page history",
   "main": "index.js",
-  "dependencies": {
-    "registry-auth-token": "^3.3.1"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
