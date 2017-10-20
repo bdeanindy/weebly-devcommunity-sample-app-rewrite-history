@@ -34,7 +34,7 @@ PlatformElement.extend({
     hashState: function(evt) {
         console.log('Append Hash History Button Click Event!');
         let stateObj = {category: "myCategoryId"};
-        let title = 'Shop - Some Category Display Title;
+        let title = 'Shop - Some Category Display Title';
         let url = 'shop.html#myCategoryId';
 
         window.history.pushState(stateObj, title, url);
