@@ -1,6 +1,6 @@
 {
   "name": "weebly-devcommunity-sample-app-rewrite-history",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sample app to answer the Weebly Developer Community post about the ability for an Element app to rewrite page history",
   "main": "index.js",
   "dependencies": {},

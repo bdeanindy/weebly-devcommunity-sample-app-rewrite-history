@@ -1,6 +1,7 @@
 PlatformElement.extend({
     initialize: function() {
         let pusherButton = document.querySelector('#pusher');
+        console.log('Current state: ', window.history.state);
     },
 
     events: {
