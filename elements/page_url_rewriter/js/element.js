@@ -8,12 +8,13 @@ PlatformElement.extend({
     },
 
     pushState: function(evt) {
+        console.log('Button Click Event!');
         //if('page/subpage.html' === window.history.state) return; // Don't add extra duplicate history
         let stateObj = {page: "subpage"};
         let title = 'Sub Page';
         let url = 'page/subpage.html';
 
         window.history.pushState(stateObj, title, url);
-        console.log('User modified window.history, appended `page/subpage.html`');
+        return console.log('User modified window.history, appended `page/subpage.html`');
     }
 });
